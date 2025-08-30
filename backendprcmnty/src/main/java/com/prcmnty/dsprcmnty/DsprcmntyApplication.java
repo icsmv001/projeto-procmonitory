@@ -8,6 +8,8 @@ public class DsprcmntyApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DsprcmntyApplication.class, args);
+		
+		
 	}
 
 }
