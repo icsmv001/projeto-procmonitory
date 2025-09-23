@@ -1,4 +1,4 @@
-//--grafico de barras
+//--grafico de barras, com dados mockados para testes - modelo inicial
 import Chart from "react-apexcharts"; 
 const Barchart = () => {
 
@@ -32,7 +32,7 @@ const mockData = {
          series={mockData.series}
          type="bar"
          height={240}
-         
+
 
        /> 
        
