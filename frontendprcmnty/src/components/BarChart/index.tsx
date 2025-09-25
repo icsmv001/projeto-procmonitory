@@ -12,12 +12,12 @@ const Barchart = () => {
 
 const mockData = {
     labels: {
-        categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
+        categories: ['ALFA VIDA', 'ANGELUS SEGUROS PESSOA', 'ANGELUS SEGUROS RESIDE', 'ANGELUS SEGUROS RESIDENCIAL', 'AXA EMPRESARIAL','ZURICH_SEGURADOS_VIDA_CARREFOUR']
     },
     series: [
         {
             name: "% Sucesso",
-            data: [43.6, 67.1, 67.7, 45.6, 71.1]                   
+            data: [43.6, 67.1, 67.7, 45.6, 71.1,80.9]                   
         }
     ]
 };

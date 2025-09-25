@@ -1,0 +1,44 @@
+export type LogProcesso = {
+  [x: string]: any;
+  id_CLIENTE: string;
+  monitoracao: string;
+  id_estrutura: string;
+  sigla: string;
+  tipo_carga: string;
+  data_calendario: string;
+  hora: string;
+  id_seqlog: string;
+  status_LOG: string;
+  totalregistros: string;
+  regcorretos: string;
+  regincorretos: string;
+  regenvvencido: string;
+  percentual_correto: string;
+  percentual_incorreto: string;
+  percentual_vencidos: string;
+  regenvinclusao: string;
+  regenvalteracao: string;
+  regenvcancelamento: string;
+  nm_ESTRUTURA: string;
+  id_cliente: number;
+  nm_cliente: string;
+  id_contrato: number;
+  nm_contrato: string;
+  segmento: string;
+  local_arquivo: string;
+  ano_mes: string;
+  tratado_sn: string;
+  indece: number;
+};
+
+export type LogProcessoPage = {
+  content?: LogProcesso[];
+  last: boolean;
+  totalPages: number;
+  totalElements: number;
+  size?: number;
+  number: number;
+  first: boolean;
+  numberOfElements?: number;
+  empty?: boolean;
+};
